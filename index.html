@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Launch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="CSS/tab.css">
+</head>
+
+<body>
+    <div id="page">
+        <section id="car-scr">
+
+            <div class="carousel animate">
+                <img class="image" src="Images/carousal3.jpeg" alt="">
+                <div class="download">
+                    <h3 class="tertiary">Take Photos with our App</h3>
+                    <hr style="width: 90%;">
+                    <p class="content">
+                        Super simple installment: free of charge
+                    </p>
+                    <button id="download-btn1">Download</button>
+                </div>
+
+            </div>
+
+            <div class="carousel animate">
+                <img class="image" src="Images/carousal1.jpg" alt="">
+                <div class="download">
+                    <h3 class="tertiary" style="color: rgb(255, 0, 0);">Click! Fast and Easy</h3>
+                    <hr style="width: 90%;">
+                    <p class="content">
+                        Choose from thousands of features
+                    </p>
+                    <button id="download-btn2">Download</button>
+                </div>
+
+            </div>
+            <div class="carousel animate">
+                <img class="image" src="Images/carousal3.jpg" alt="">
+                <div class="download">
+                    <h3 class="tertiary" style="color: rgb(7, 163, 7);">Smart Design</h3>
+                    <hr style="width: 90%;">
+                    <p class="content">
+                        Customize photos as you go.
+                    </p>
+                    <button id="download-btn3">Download</button>
+                </div>
+
+            </div>
+            <button id="tour">&rsaquo;</button>
+        </section>
+
+        <section id="intro">
+            <div id="introdiv">
+                <div class="text">
+                    <h1 class="h-primary">The App</h1>
+                    <h2 class="h-secondary" style="color: rgb(7, 163, 7);">Why buy it?</h2>
+                    <h3 class="tertiary">Take photos like a pro. <span class="content">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Modi veniam voluptatem
+                            maiores ipsam sequi sint quibusdam assumenda non inventore sed unde, laborum deserunt cumque
+                            consectetur quidem neque tempore quaerat soluta saepe nam et tenetur. Porro quam similique
+                            numquam ratione nesciunt!consectetur quidem neque tempore quaerat soluta saepe nam et
+                            tenetur. Porro
+                            quam similiqu enumquam ratione nesciunt!</span></h3>
+                    <button id="btn">Download Application</button>
+                </div>
+                <div class="side-pic">
+                    <img src="Images/app1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="clarity-section">
+            <div id="clarity">
+                <div class="side-pic">
+                    <img src="Images/app2.png" alt="">
+                </div>
+                <div class="text">
+                    <h1 class="h-primary">Clarity</h1>
+                    <h2 class="h-secondary" style="color: red;">Pixels, who?</h2>
+                    <h3 class="tertiary">A revolution in resolution. <span class="content">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Modi veniam voluptatem
+                            maiores ipsam sequi sint quibusdam assumenda non inventore sed unde, laborum deserunt cumque
+                            consectetur quidem neque tempore quaerat soluta saepe nam et tenetur. Porro quam similique
+                        </span></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing-section">
+            <div id="pricing">
+                <h1 class="h-primary">Pricing</h1>
+                <p class="content">Choose a pricing plan that fits your needs.</p>
+                <div id="comparison">
+                    <div class="comparison-box">
+                        <ul>
+                            <li>
+                                <h3 class="tertiary" style="background-color: rgb(75, 75, 75); color: white;">Basic</h3>
+                            </li>
+                            <li>
+                                <p class="content">250 Photos</p>
+                            </li>
+                            <li>
+                                <p class="content">10 Features</p>
+                            </li>
+                            <li>
+                                <p class="content">No Ads</p>
+                            </li>
+                            <li>
+                                <p class="content">Office hours Support</p>
+                            </li>
+                            <li>
+                                <p class="content">$ 25</p>
+                            </li>
+                            <li style="background-color: rgb(238, 238, 238);"><button id="basic-btn">Download</button></li>
+                        </ul>
+                    </div>
+                    <div class="comparison-box">
+                        <ul>
+                            <li>
+                                <h3 class="tertiary" style="background-color: rgb(228, 61, 61); color: white;">Premium</h3>
+                            </li>
+                            <li>
+                                <p class="content">1000 Photos</p>
+                            </li>
+                            <li>
+                                <p class="content">50 Features</p>
+                            </li>
+                            <li>
+                                <p class="content">No Ads</p>
+                            </li>
+                            <li>
+                                <p class="content">Endless Support</p>
+                            </li>
+                            <li>
+                                <p class="content">$ 99</p>
+                            </li>
+                            <li style="background-color: rgb(238, 238, 238);"><button id="premium-btn">Download</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <p class="content">&copy; All copyrights reserved</p>
+        </footer>
+
+    </div>
+        <div id="modal" class="animate">
+            <h3 class="tertiary">DOWNLOAD</h3>
+            <button id="modal-btn">X</button>
+            <p class="content">Download the app in AppStore, Google Play or Microsoft Store.</p>
+            <input type="email" name="email" id="email" placeholder="Enter e-mail">
+            <button id="modal-download-btn">Start Download</button>
+        </div>
+
+    <script src="Js/App.js"></script>
+</body>
+
+</html>
